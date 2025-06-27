@@ -16,7 +16,7 @@ def main():
     print(
         f"""
     ============ BOOKBOT ============
-    Analyzing book found at books/{filename}...
+    Analyzing book found at {filename}...
     ----------- Word Count ----------
     Found {w_count} total words   
     --------- Character Count -------       

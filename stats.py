@@ -1,5 +1,5 @@
 def word_count(path):
-    with open(f"books/{path}") as f:
+    with open(path) as f:
         files_contents = f.read()
     split_contents = files_contents.split()
     count = len(split_contents)
@@ -12,7 +12,7 @@ character_dict = {}
         # Function to count the amount of letters are seen in a book
 def char_count(path):
     #character_dict = {}
-    with open(f"books/{path}") as f:
+    with open(path) as f:
         files_contents = f.read()
         lower_case = files_contents.lower()
         for letters in lower_case:
